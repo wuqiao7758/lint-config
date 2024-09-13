@@ -1,0 +1,29 @@
+{
+  "name": "lint-config",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build:all": "tsx scripts/build-all.ts",
+    "lint": "eslint --fix .",
+    "prettier": "prettier --write \"**/*.{js,cjs,ts,json,md}\"",
+    "lint:stylelint": "stylelint --cache --fix \"**/*.{css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
+    "lint:lint-staged": "lint-staged",
+    "commit": "git add -A && czg && git push"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "@commitlint/cli": "^19.3.0",
+    "cz-git": "^1.9.4",
+    "czg": "^1.9.4",
+    "eslint": "^8.57.0",
+    "husky": "^9.0.1",
+    "execa": "^8.0.1",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.3.3",
+    "stylelint": "^16.8.1",
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0",
+    "tsx": "^4.7.0"
+  }
+}

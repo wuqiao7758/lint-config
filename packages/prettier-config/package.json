@@ -1,0 +1,33 @@
+{
+  "name": "@vwfive/prettier-config",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "prettier": ">=3.0.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": ""
+  }
+}
