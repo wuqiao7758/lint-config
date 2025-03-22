@@ -1,6 +1,7 @@
 {
-  "name": "@vwnine/eslint-config",
-  "version": "0.0.1",
+  "name": "vwnine-eslint-config",
+  "version": "0.1.0",
+  "private": false,
   "license": "MIT",
   "keywords": [
     "eslint",
@@ -35,6 +36,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": ""
+    "registry": "https://registry.npmjs.org/"
   }
 }

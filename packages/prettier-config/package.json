@@ -1,6 +1,6 @@
 {
-  "name": "@vwnine/prettier-config",
-  "version": "0.0.1",
+  "name": "vwnine-prettier-config",
+  "version": "0.1.0",
   "license": "MIT",
   "keywords": [
     "prettier",
@@ -28,6 +28,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": ""
+    "registry": "https://registry.npmjs.org"
   }
 }

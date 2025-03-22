@@ -1,6 +1,6 @@
 {
-  "name": "@vwnine/stylelint-config",
-  "version": "0.0.1",
+  "name": "vwnine-stylelint-config",
+  "version": "0.1.0",
   "license": "MIT",
   "keywords": [
     "stylelint",
@@ -38,6 +38,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": ""
+    "registry": "https://registry.npmjs.org/"
   }
 }
